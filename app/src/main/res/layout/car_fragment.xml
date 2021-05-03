@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.youth.banner.Banner
+        android:id="@+id/home_banner"
+        android:layout_width="375dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/home_edit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp" />
+
+    <EditText
+        android:id="@+id/home_edit"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/login"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="搜索"
+        android:imeOptions="actionSearch"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="37dp"
+        app:srcCompat="@mipmap/search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/park1_rec"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_banner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="17dp" />
+
+    <ImageView
+        android:id="@+id/park_img"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/home_edit"
+        app:srcCompat="@mipmap/ma" />
+
+</RelativeLayout>

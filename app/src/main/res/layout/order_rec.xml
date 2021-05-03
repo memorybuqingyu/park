@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="385dp"
+        android:layout_height="207dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login">
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/order_rec_tv1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="-1dp"
+            android:background="#DDDDDD" />
+
+        <TextView
+            android:id="@+id/order_rec_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/order_rec_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="11dp"
+            android:text="TextView"
+            android:textColor="#FF9800" />
+
+        <Button
+            android:id="@+id/order_rec_btn2"
+            android:layout_width="95dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/order_rec_tv5"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/order_rec_btn1"
+            android:text="立即入库" />
+
+        <Button
+            android:id="@+id/order_rec_btn1"
+            android:layout_width="95dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/order_rec_tv5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3dp"
+            android:text="取消预约" />
+
+        <TextView
+            android:id="@+id/order_rec_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/order_rec_tv3"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/textView20"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/order_rec_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/view6"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/textView19"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/order_rec_tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/order_rec_tv4"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/textView21"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="19dp"
+            android:text="停车场名称：" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:text="入场时间：" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view6"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="21dp"
+            android:text="预约时间：" />
+
+    </RelativeLayout>
+</RelativeLayout>

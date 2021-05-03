@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/login_top"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="#FFFFFF" />
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_below="@+id/login_top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="17dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="36dp"
+            android:text="P A R K I N G      L O T"
+            android:textColor="#F15959" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="6dp"
+            android:text="智 慧 停 车"
+            android:textColor="#EA3434"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/view"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="23dp"
+            app:srcCompat="@mipmap/pwd" />
+
+        <EditText
+            android:id="@+id/login_edit_user"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:background="@drawable/login"
+            android:ems="10"
+            android:hint="请输入账号"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="113dp"
+            app:srcCompat="@mipmap/conunt" />
+
+        <EditText
+            android:id="@+id/login_edit_pwd"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/view"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:background="@drawable/login"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:padding="5dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/login_edit_user"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp"
+            android:background="#DDDDDD" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="455dp"
+            android:background="#DDDDDD" />
+
+        <TextView
+            android:id="@+id/login_tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="暂无账号，立即注册" />
+
+        <ImageView
+            android:id="@+id/login_img"
+            android:layout_width="133dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/login_edit_pwd"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginTop="11dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/login_tv_ma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_edit_pwd"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="26dp"
+            android:layout_toEndOf="@+id/login_img"
+            android:text="看不清？换一张"
+            android:textColor="#FF0000" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/login_img"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/yanzhengma" />
+
+        <EditText
+            android:id="@+id/login_edit_ma"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/login_img"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/imageView6"
+            android:background="@drawable/login"
+            android:ems="10"
+            android:hint="请输入验证码"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="378dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/login_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FF0000"
+        android:text="登录"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

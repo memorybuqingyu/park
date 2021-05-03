@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/login">
+
+        <TextView
+            android:id="@+id/park1_rec_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textColor="#FF9800"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/park1_rec_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:text="TextView"
+            android:textColor="#FF9800"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/park1_rec_tv1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="14dp"
+            android:background="#E8E8E8" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="车位信息"
+            android:textColor="#FF5722"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="8dp"
+            android:text="停车费" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/textView17"
+            android:text="剩余车位" />
+
+        <Button
+            android:id="@+id/park1_rec_btn1"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/park1_rec_tv3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="18dp"
+            android:text="立即停车" />
+
+        <Button
+            android:id="@+id/park1_rec_btn2"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/park1_rec_tv4"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="21dp"
+            android:layout_toEndOf="@+id/park1_rec_btn1"
+            android:text="预约停车" />
+
+        <TextView
+            android:id="@+id/park1_rec_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/park1_rec_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="14dp"
+            android:layout_toEndOf="@+id/park1_rec_tv3"
+            android:text="TextView"
+            android:textColor="#FF0000" />
+
+    </RelativeLayout>
+</RelativeLayout>

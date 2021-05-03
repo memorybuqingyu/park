@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/park_rec_layout"
+        android:layout_width="383dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/login">
+
+        <TextView
+            android:id="@+id/park_rec_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="#F81B1B"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/park_rec_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="23dp"
+            android:text="TextView"
+            android:textColor="#FF0505"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/park_rec_tv1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="11dp"
+            android:background="#E3E3E3" />
+
+        <TextView
+            android:id="@+id/park_rec_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view4"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="43dp"
+            android:layout_toEndOf="@+id/park_rec_img"
+            android:text="TextView"
+            android:textColor="#FF5722" />
+
+        <ImageView
+            android:id="@+id/park_rec_img"
+            android:layout_width="173dp"
+            android:layout_height="122dp"
+            android:layout_below="@+id/view4"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="11dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/park_rec_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/park_rec_tv3"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/park_rec_img"
+            android:text="TextView"
+            android:textColor="#4CAF50" />
+    </RelativeLayout>
+</RelativeLayout>
